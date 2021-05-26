@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XpI3PFiKiz3Ywon4+SbIs4JGgiZmtNhYezzsjiUBmaitCzDWPlLKiO715nPzgQP4lVDkS21usbtDZTeCNDFqoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\fgrumbach1\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
