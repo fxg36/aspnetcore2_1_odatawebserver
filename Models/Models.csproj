@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>SmartServiceODataProvider.Models</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StockDayValue.cs~RF7586345.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Global\Global.csproj" />
+  </ItemGroup>
+
+</Project>

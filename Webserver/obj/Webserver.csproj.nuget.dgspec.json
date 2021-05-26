@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Webserver\\Webserver.csproj": {}
+  },
+  "projects": {
+    "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\EfContext.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\EfContext.csproj",
+        "projectName": "EfContext",
+        "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\EfContext.csproj",
+        "packagesPath": "C:\\Users\\fgrumbach1\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fgrumbach1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj": {
+                "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[7.5.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj",
+        "projectName": "Global",
+        "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj",
+        "packagesPath": "C:\\Users\\fgrumbach1\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fgrumbach1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj",
+        "projectName": "Models",
+        "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\fgrumbach1\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fgrumbach1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj": {
+                "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Webserver\\Webserver.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Webserver\\Webserver.csproj",
+        "projectName": "Webserver",
+        "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Webserver\\Webserver.csproj",
+        "packagesPath": "C:\\Users\\fgrumbach1\\.nuget\\packages\\",
+        "outputPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Webserver\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fgrumbach1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\EfContext.csproj": {
+                "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\EfContext\\EfContext.csproj"
+              },
+              "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj": {
+                "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Global\\Global.csproj"
+              },
+              "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj": {
+                "projectPath": "C:\\Repo\\predictive-scheduling-smart-service-prototype\\src\\AspNetCore2_1_ODataWebserver\\Models\\Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.OData": {
+              "target": "Package",
+              "version": "[7.5.6, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.14, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

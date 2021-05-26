@@ -1,0 +1,11 @@
+{
+    "Project":"Dummy",
+    "DbHost": "127.0.0.1",
+    "DbName": "testdb1",
+    "DbUser": "root",
+    "DbPassword": "root",
+    "ApiConsumers": [
+      "dummy:123456"
+    ],
+    "ApiLogging": "False" 
+}
